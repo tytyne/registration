@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+.body {
+    background-color: rgb(207, 201, 201);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300
+}
+
+
+.height {
+    height: 100vh
+}
+
+.card {
+    border: none;
+    padding: 20px;
+    background-color:white;
+    color:black
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 50%
+}
+.trial{
+    border-top: 20px solid #ffc107; 
+    border-radius: 50px 20px;
+}
+
+.form-input {
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.form-input i {
+    position: absolute;
+    font-size: 18px;
+    top: 15px;
+    left: 10px
+}
+
+.form-control {
+    height: 50px;
+    background-color:white;
+    text-indent: 24px;
+    font-size: 15px
+}
+
+.form-control:focus {
+    background-color: gray;
+    box-shadow: none;
+    color: #fff;
+    border-color: yellow
+}
+
+.form-check-label {
+    margin-top: 2px;
+    font-size: 14px
+}
+
+#signup {
+    
+    font-size: 14px;
+    background-color:orange
+}
+#form2{
+    margin-left:20vh;
+  }
+.mt-3{
+    margin-left:5vh;
+}
