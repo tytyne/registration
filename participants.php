@@ -27,22 +27,42 @@
                 
                     <!-- form -->
                 	<form id = "registration">
+                  <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon3"><i class="fa fa-envelope icon"></i></span>
+                  <input type = "text" class = "form-control" name = "PartEmail" placeholder = "Email" required="">
+                  </div>
+
+                  <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon3"><i class="fa fa-lock icon"></i></span>
+                  <input type = "password" class = "form-control" name = "PartPassword" placeholder = "Password" id = "password" minlength="8" required="">
+                  </div>
+
+                  <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon3"><i class="fa fa-lock icon"></i></span>
+                  <input type = "password" class = "form-control" name = "pwdRepeat" placeholder = "Re-type Password"  required="">
+                  </div>
+  
                    
-                        <div class="form-input"><i class="fa fa-envelope"></i><input type = "text" class = "form-control" name = "PartEmail" placeholder = "Email" required=""></div>
-                   
-                        <div class="form-input"><i class="fa fa-lock"></i><input type = "password" class = "form-control" name = "PartPassword" placeholder = "Password" id = "password" minlength="8" required=""></div>
-                   
-                        <div class="form-input"><i class="fa fa-lock"></i><input type = "password" class = "form-control" name = "pwdRepeat" placeholder = "Re-type Password"  required=""></div>
+                            
+                  <div class="row align-items-center g-3">
+                  <div class="col-6">
+
+                  <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon3"><i class="fa fa-user icon"></i></span>
+                  <input type = "text" class = "form-control" name = "PartFirstname" placeholder = "First Name"  required="">
+                  </div>
+
+            
+                  </div>
                       
-                        <div class="row align-items-center g-3">
-                        <div class="col-6">
-                        <div class="form-input"><i class="fa fa-user"></i><input type = "text" class = "form-control" name = "PartFirstname" placeholder = "First Name"  required=""></div>
-                        </div>
-                      
-                        <div class="col-6">
-                        <div class="form-input"><i class="fa fa-user"></i><input type = "text" class = "form-control" name = "PartLastname" placeholder = "Last Name"  required=""></div>
-                        </div>
-                        </div>
+                <div class="col-6">
+
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon3"><i class="fa fa-user icon"></i></span>
+                  <input type = "text" class = "form-control" name = "PartLastname" placeholder = "Last Name"  required="">
+                  </div>
+                </div>
+                </div>
                    
                         <div class = "gender" required="">
                         <label class="radio-inline"><input type="radio" name="PartGender" value="male" class = "form-contorl" checked/>Male</label>
