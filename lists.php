@@ -43,7 +43,7 @@
 </thead>
 <tbody>
 <?php
-include 'config.php';
+include 'database/config.php';
 $query="SELECT id,PartEmail,PartFirstname,PartLastname,PartGender,PartCountry from participants limit 200"; // Fetch all the data from the table customers
 $result=$con->query($query);;
 ?>

@@ -4,7 +4,7 @@
 
 	// include database connectivity file
 
-	include_once('config.php');
+	include_once('../database/config.php');
 
 	if (isset($_POST['email'])) {
 

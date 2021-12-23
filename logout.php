@@ -1,5 +1,5 @@
 <?php
-	include_once('config.php');
+	include_once('database/config.php');
 	session_start();
 	session_destroy();
 	session_unset($_SESSION['id']);

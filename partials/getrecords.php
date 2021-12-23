@@ -1,6 +1,6 @@
 <?php
 
-include_once('config.php');
+include_once('../database/config.php');
 /* SQL query to get results from database */
 $id = $_POST['id'];
 $query="SELECT id,PartEmail,PartFirstname,PartLastname,PartGender,PartCountry from participants WHERE id = '" . $id . "'";

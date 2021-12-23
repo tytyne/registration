@@ -33,7 +33,7 @@ include("partials/navbar.php")
              <input type="email" class="form-control" name="email" placeholder="Email" required="">
           </div>
           <div class="form-group">
-             <input type="password" class="form-control" name="password" placeholder="Password" required="">
+             <input type="password" class="form-control" name="password" placeholder="Password" minlength="8" required="">
           </div>
           <p>If you have account <a href="loginForm.php">Login</a></p>
           <input type="submit" class="btn btn-primary btn btn-block" value="Sign Up">  
@@ -51,7 +51,7 @@ include("partials/navbar.php")
       
         var formData = $(this).serialize();
         $.ajax({
-            url : "register.php",
+            url : "partials/register.php",
             type: "POST",
             cache:false,
             data: formData,
