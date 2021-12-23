@@ -9,6 +9,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+<?php
+include("partials/navbar.php")
+?>
 <div class="container" style="margin-top:50px">
 <h1 style="text-align:center;">Admin registration Form</h1><br>
   <div class="row">

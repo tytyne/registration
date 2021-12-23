@@ -85,7 +85,7 @@ var id = $(this).data('id');
 // ajax
 $.ajax({
 type:"POST",
-url: "getrecords.php",
+url: "partials/getrecords.php",
 data: { id: id },
 dataType: 'json',
 success: function(res){

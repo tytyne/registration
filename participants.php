@@ -107,7 +107,7 @@
         e.preventDefault();
         var formData = $(this).serialize();
         $.ajax({
-            url : "part.php",
+            url : "partials/part.php",
             type: "POST",
             cache:false,
             data: formData,

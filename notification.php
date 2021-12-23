@@ -26,7 +26,7 @@
               <div class="col-12 upperr">
                 <div class="message">
                 <p>congratulations,your account</br>has been successfully created.</p>
-                <button onclick="location.href='/testing'"  type="button" class="btn btn-success btn-lg">Continue</button>
+                <button onclick="location.href='/registration'"  type="button" class="btn btn-success btn-lg">Continue</button>
               </div>
              
             </div>

@@ -52,7 +52,7 @@
         var password = $("#password").val();
 
         $.ajax({
-            url : "login.php",
+            url : "partials/login.php",
             type:"POST",
             cache:false,
             data:{email:email,password:password},
