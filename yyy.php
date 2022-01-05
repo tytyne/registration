@@ -13,47 +13,23 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
 </head>
 <body>
-
-
   
   <div class="container" style="margin-top:50px">
     <h1 style="text-align:center;">list of Participants </h1><br>
     <div class="row">
        <h5>Hello, <?php echo ucwords($_SESSION['fullname']); ?> <small><a href="logout.php">Logout</a></small></h5>   
     </div>
-
-<div class="container mt-2">
-<div class="page-header">
-<h2>Participants List</h2>
-</div>
-<div class="col-lg-12">
+    <div class="col-lg-12">
 				<div id="message"></div>
 				<div id="fetch"></div>
+		</div>
 </div>
 </body>
 </html>
 <script>
+ 
 
 function fetch(){
       
