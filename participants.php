@@ -107,7 +107,8 @@
         e.preventDefault();
         var formData = $(this).serialize();
         $.ajax({
-            url : "partials/part.php",
+            // url : "partials/part.php",
+            url : "controllers/participantController.php",
             type: "POST",
             cache:false,
             data: formData,
@@ -115,8 +116,6 @@
               data = JSON.parse(response);
               if (data.error == "0") {
                 $("#registration").trigger("reset");
-                // $('.message-message').replaceWith('<div class="alert alert-success alert-dismissible" role="alert">'
-                //  + data.message + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
                 window.location.replace("notification");
               }else if(data.error == "1") {
                $('.message-message').replaceWith('<div class="alert alert-danger alert-dismissible" role="alert">'

@@ -3,7 +3,7 @@
 
 	include_once('../database/config.php');
 
-	if (isset($_POST['username'])) {
+	if (isset($_POST['email'])) {
 		
 		$fullname = $con->real_escape_string($_POST['fullname']);
 		$username = $con->real_escape_string($_POST['username']);

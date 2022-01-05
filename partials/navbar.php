@@ -12,6 +12,7 @@
 <body>
 <nav class="navbar navbar-light bg-light justify-content-between">
   <a class="navbar-brand">Home</a>
+   <a class="navbar-brand" href="/registration/loginForm">Login Admin</a>
   <form class="form-inline">
   <ul class="navbar-nav">
       <li class="nav-item active">

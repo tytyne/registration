@@ -51,11 +51,13 @@ include("partials/navbar.php")
       
         var formData = $(this).serialize();
         $.ajax({
-            url : "partials/register.php",
+            //  url : "partials/register.php",
+            url : "controllers/RegisterController.php",
             type: "POST",
             cache:false,
             data: formData,
             success:function(response){
+              console.log(response)
               data = JSON.parse(response);
               if (data.error == "0") {
                 $("#signupForm").trigger("reset");

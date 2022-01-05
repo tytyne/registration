@@ -55,7 +55,8 @@ include("partials/navbar.php")
         var password = $("#password").val();
 
         $.ajax({
-            url : "partials/login.php",
+            // url : "partials/login.php",
+            url : "controllers/LoginController.php",
             type:"POST",
             cache:false,
             data:{email:email,password:password},
@@ -63,7 +64,6 @@ include("partials/navbar.php")
               if(response == '1') {
                 console.log(response)
                 window.location.replace("lists.php");
-                
               }else if(response=='0'){
                 $(".show-message").show();
                 $(".ajax-message").text('Email or Password is Invalid');
